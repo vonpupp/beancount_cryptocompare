@@ -1,0 +1,2 @@
+beancount==2.0rc1
+cryptocompare==0.3
