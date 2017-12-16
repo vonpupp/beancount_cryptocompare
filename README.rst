@@ -30,10 +30,10 @@ How to install
 
 Add the package to the `PYTHONPATH` variable on your shell
 
-```
-PYTHONPATH=$HOME/path/to/beancount_cryptocompare/beancount_cryptocompare
-export PYTHONPATH
-```
+.. code-block:: bash
+
+    PYTHONPATH=$HOME/path/to/beancount_cryptocompare/beancount_cryptocompare
+    export PYTHONPATH
 
 
 How to use
@@ -41,9 +41,9 @@ How to use
 
 You should be able to use it as follows:
 
-```
-bean-price -e USD:cryptocompareusd/ETH
-```
+.. code-block:: bash
+
+    bean-price -e USD:cryptocompareusd/ETH
 
 
 Features
