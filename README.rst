@@ -25,10 +25,33 @@ Beancount cryptocompare prices source
 * Documentation: https://beancount-cryptocompare.readthedocs.io.
 
 
+How to install
+--------------
+
+Add the package to the `PYTHONPATH` variable on your shell
+
+```
+PYTHONPATH=$HOME/path/to/beancount_cryptocompare/beancount_cryptocompare
+export PYTHONPATH
+```
+
+
+How to use
+----------
+
+You should be able to use it as follows:
+
+```
+bean-price -e USD:cryptocompareusd/ETH
+```
+
+
 Features
 --------
 
-* TODO
+* Cryptocompare prices query with automatic conversion to USD
+* [In progress] Cryptocompare prices query with automatic conversion to EUR
+* [In progress] Cryptocompare prices query with automatic conversion to BTC
 
 Credits
 ---------
